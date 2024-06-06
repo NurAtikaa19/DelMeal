@@ -48,26 +48,8 @@
 
     <!-- Main content -->
     <section class="content">
-      <img src="{{ asset('image/Resto.jpg') }}" alt="Resto" width="1500" height="600">
-
-      <!-- Default box -->
-      <div class="card">
-            <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
-              <i class="fas fa-minus"></i>
-            </button>
-            <button type="button" class="btn btn-tool" data-card-widget="remove" title="Remove">
-              <i class="fas fa-times"></i>
-            </button>
-          </div>
-        </div>
-        <div class="card-body">
-        </div>
-        <!-- /.card-body -->
         @yield('content')
-        <!-- /.card-footer-->
       </div>
-      <!-- /.card -->
-
     </section>
     <!-- /.content -->
   </div>
